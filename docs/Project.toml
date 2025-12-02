@@ -1,0 +1,6 @@
+[deps]
+AstrodynamicsUtilities = "aaa49d15-c72f-43c6-a65a-172a55867cac"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[sources]
+AstrodynamicsUtilities = {path = ".."}
