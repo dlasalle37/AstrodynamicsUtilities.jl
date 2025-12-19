@@ -1,7 +1,11 @@
 abstract type AbstractStateRepresentation end
 
 
-# Containers
+"""
+    CartesianState{T<:Union{Nothing, AbstractVector}}
+
+Container for cartesian state.
+"""
 struct CartesianState{T<:Union{Nothing,AbstractVector}} <: AbstractStateRepresentation
     vec::T
 
@@ -15,6 +19,11 @@ struct CartesianState{T<:Union{Nothing,AbstractVector}} <: AbstractStateRepresen
 
 end
 
+"""
+    KeplerianState{T<:Union{Nothing, AbstractVector}}
+
+Container for Keplerian state. 
+"""
 struct KeplerianState{T<:Union{Nothing,AbstractVector}} <: AbstractStateRepresentation
     vec::T
     

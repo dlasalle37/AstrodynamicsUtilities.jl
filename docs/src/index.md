@@ -11,6 +11,15 @@ Documentation for [AstrodynamicsUtilities](https://github.com/dlasalle37/Astrody
 ```@index
 ```
 
+## State Representations
 ```@autodocs
-Modules = [AstrodynamicsUtilities]
+    Modules = [AstrodynamicsUtilities]
+    Pages = ["state_representations.jl"]
+    Private=false
+```
+
+### Private Functions
+```@docs
+rv2coe
+coe2rv
 ```
