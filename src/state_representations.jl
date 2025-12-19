@@ -75,8 +75,9 @@ end
 
 # Inner functions
 """
-coe2rv: Calculate the inertial position and velocity vectors from Keplerian classical orbital elements
-INPUTS:
+coe2rv: Calculate the inertial position and velocity vectors from Keplerian classical orbital elements.
+
+# Inputs:\n
     `vec`: 6-element vector containing:
         a: semi major axis (km)
         e: eccentricity
@@ -85,7 +86,7 @@ INPUTS:
         w: argument of perigee (radians)
         trueAnom: true anomaly (radians)
     `mu`: gravitational parameter of central body (km^3/s^2)
-Outputs:
+# Returns:\n
     `rv`: 6-element vector of position and velocity
 """
 function coe2rv(vec, mu)
@@ -126,12 +127,12 @@ end
 
 Calculate the 6 classical keplerian orbital elements from r, v, mu (under the two body problem)
 
-INPUTS:\n
+# Inputs:\n
     r: inertial position vector (km)
     v: inertial velocity vector (km/s)
     mu: gravitational parameter of central body (km^3/s^2)
 
-OUPUTS:\n
+# returns:\n
     coe: vector of 6 Keplerian elements, which are:\n
         a: semi major axis (km)
         e: eccentricity
