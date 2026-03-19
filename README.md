@@ -1,5 +1,5 @@
 # AstrodynamicsUtilities
-
+For now this is more of a test environment for me to learn package development in Julia. There is minimal useful functionality here, which may change in the future.
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://dlasalle37.github.io/AstrodynamicsUtilities.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://dlasalle37.github.io/AstrodynamicsUtilities.jl/dev/)
 [![Build Status](https://github.com/dlasalle37/AstrodynamicsUtilities.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/dlasalle37/AstrodynamicsUtilities.jl/actions/workflows/CI.yml?query=branch%3Amaster)
